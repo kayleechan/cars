@@ -15,7 +15,7 @@ do
 			echo "what is the make? "; read make
 			echo "what is the model? ";read model
 			string="${year}:${make}:${model}"
-			echo $string >> My_old_cars;;
+			echo "$string" >> My_old_cars;;
 
 		2)
 			sort My_old_cars;;
